@@ -40,12 +40,23 @@
 
       <nav class="main-nav" id="menu" aria-label="Principal">
         <ul>
-          <li><a href="#sobre">Sobre nós</a></li>
-          <li><a href="#residencial">Empreendimentos</a></li>
-          <li><a href="#como-comprar">Como comprar</a></li>
-          <li><a href="#duvidas">Dúvidas</a></li>
-          <li><a href="#contato"><svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg>Contato</a></li>
+          <li style="--i:0"><a href="#sobre">Sobre nós</a></li>
+          <li style="--i:1"><a href="#residencial">Empreendimentos</a></li>
+          <li style="--i:2"><a href="#como-comprar">Como comprar</a></li>
+          <li style="--i:3"><a href="#duvidas">Dúvidas</a></li>
+          <li style="--i:4"><a href="#contato"><svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg>Contato</a></li>
         </ul>
+
+        <!-- só aparece no menu do celular -->
+        <div class="main-nav__extra" style="--i:5">
+          <a class="btn btn--key btn--block" href="https://wa.me/5579998906843?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20saber%20mais%20sobre%20os%20empreendimentos%20da%20EXE." target="_blank" rel="noopener">
+            <svg class="ico" aria-hidden="true"><use href="#i-whatsapp"/></svg>Falar no WhatsApp
+          </a>
+          <div class="main-nav__social">
+            <a href="https://www.instagram.com/exesmartcities/" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-instagram"/></svg>@exesmartcities</a>
+            <a href="mailto:atendimento@exe.imb.br"><svg class="ico" aria-hidden="true"><use href="#i-mail"/></svg>E-mail</a>
+          </div>
+        </div>
       </nav>
 
       <a class="btn btn--key header-cta" href="https://wa.me/5579998906843?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20saber%20mais%20sobre%20os%20empreendimentos%20da%20EXE." target="_blank" rel="noopener">
